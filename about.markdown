@@ -4,5 +4,5 @@ title: About
 permalink: /about/
 ---
 
-Change this text with information about me and my blog.
+I am a student at Brigham Young University. I love data science, especially building models to predict future outcomes. I love dogs and playing the piano!
 

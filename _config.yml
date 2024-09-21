@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title:  "SQL for Data Science Beginners"
+title:  "Simplifying Data Science"
 email: kolbymckay@gmail.com
 description: "Teaches the basics of SQL, a common programming language used to gather and organize data." 
 baseurl: "/stat386-blog-theme" # the name of the repository 

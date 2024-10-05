@@ -19,6 +19,7 @@ But what if you’re not quite ready to dive into installation? No problem! You 
 ## Basic SQL Queries
 When you're getting started with SQL, having an understanding of basic queries is crucial. The foundation of these queries lies in a few key components: SELECT, FROM, WHERE, and ORDER BY. Here's an example query that pulls client information from a database:
 
+``` sql
 SELECT
   company_name,
   annual_revenue,
@@ -26,6 +27,7 @@ SELECT
 FROM client_data.client_information
 WHERE annual_revenue >= 1000000 AND number_of_employees >= 10
 ORDER BY annual_revenue DESC
+```
 
 SELECT
 The SELECT statement is the backbone of any SQL query, allowing you to retrieve specific data from a database. This statement lets you specify which columns you want to view from a given table. In our query, we selected some information about each company, including its name, annual revenue, and the number of employees.
@@ -44,6 +46,7 @@ When writing SQL queries, often you will want to do more complex operations, lik
 
 Imagine you have a table that shows all the test grades of different students. You want to be able to see how each student performs overall, not just their individual tests. Here's an example of how you can do this:
 
+``` sql
 SELECT
   student,
   COUNT(*),
@@ -51,9 +54,11 @@ SELECT
   MIN(test_score),
   MAX(test_score)
 FROM test_scores
+```
 
 Uh oh! Looks like there is some attendance data you need, but it's in another table. No worries, you can just join the two tables together:
 
+``` sql
 SELECT
   ts.student,
   COUNT(ts.test_score),
@@ -64,6 +69,7 @@ SELECT
 FROM test_scores ts
 LEFT JOIN attendance_data ad ON ad.student = ts.student
 GROUP BY student
+```
 
 # COUNT, SUM, AVG, MIN, MAX
 These functions are pretty self explanatory, they complete a mathematical operation on the specified column. In our query, we calculated the following information for each student:

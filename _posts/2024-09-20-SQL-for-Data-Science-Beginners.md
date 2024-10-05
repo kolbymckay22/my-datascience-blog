@@ -4,6 +4,8 @@ title:  "Learning SQL"
 author: Kolby Taylor
 description: Teaches the basics of SQL, a programming language used to gather and organize data.   
 image: "/assets/images/sql_background.jpeg"
+
+<img src="{{site.url}}/{{site.baseurl}}/assets/images/sql_background.jpeg" alt="" style="height:300px;"/>
 ---
 
 ## An Underrated Tool

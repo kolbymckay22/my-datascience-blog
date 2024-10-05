@@ -20,7 +20,7 @@
 
 title:  "Simplifying Data Science"
 email: kolbymckay22@gmail.com
-description: "Teaches the basics of SQL, a common programming language used to gather and organize data." 
+description: "Teaches data science principles in a simple way." 
 baseurl: "/my-datascience-blog" # the name of the repository 
 url: "https://kolbymckay22.github.io" #  change this to "https://<your-github-username>.github.io"
 image: "assets/images/data_science_background.jpeg"

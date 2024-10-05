@@ -23,7 +23,7 @@ email: kolbymckay22@gmail.com
 description: "Teaches the basics of SQL, a common programming language used to gather and organize data." 
 baseurl: "/my-datascience-blog" # the name of the repository 
 url: "https://kolbymckay22.github.io" #  change this to "https://<your-github-username>.github.io"
-image: /Users/kolbytaylor/Documents/BYU/Fall 2024/Stat 386/blog_theme/stat386-blog-theme/data_science_background.jpeg
+image: "data_science_background.jpeg"
 author: Kolby Taylor
 copyright: KT # Your initials or name or what you want the copyright to be.  Leave empty for no copyright
 

@@ -6,7 +6,7 @@ description: Teaches the basics of SQL, a programming language used to gather an
 image: "/assets/images/image5.jpg"
 ---
 
-## Introduction
+## An Underrated Tool
 When I first started working with data, I was overwhelmed by the sheer amount of information at my fingertips, but I had no idea how to extract meaningful insights. That’s when I discovered SQL, and everything changed. Now, I can manipulate vast amounts of data with just a few lines of code.
 All data scientists aspire to build complex models and uncover powerful analytical insights. However, without clean, well-structured data, these goals are impossible to achieve. SQL is the most used tool for cleaning and organizing data.
 According to a study conducted by RTInsights, almost 70% of data scientists use SQL regularly, and it is often one of the first skills required in data science job postings. However, despite its importance, SQL remains undertaught in universities across the country. Today, I will provide a brief introduction to this powerful language and explain a few ways it can be utilized.
@@ -25,14 +25,16 @@ ORDER BY
 Finally, the ORDER BY clause allows you to sort your query results based on one or more columns. For example, if you want to see a list of employees sorted by their salary in descending order, this clause would help you achieve that. Sorting your results can be incredibly useful for identifying trends, such as the highest-paid employees or the most senior staff members.
  
 ## Aggregating and Joining Data with SQL
-COUNT, SUM, AVG, MIN, MAX
+# COUNT, SUM, AVG, MIN, MAX
 These functions are fundamental for analyzing data. COUNT is used to determine the number of rows that meet specific criteria. For example, if you want to count how many employees work in the Sales department, you would use a query to retrieve that information. Similarly, the SUM function allows you to add up values in a column, while AVG computes the average. MIN and MAX are used to find the smallest and largest values in a dataset, respectively. Using these functions can help you extract valuable metrics, such as total sales, average salaries, or the range of employee ages.
-GROUP BY
+
+# GROUP BY
 The GROUP BY clause is essential for aggregating data based on one or more columns. This allows you to perform calculations on groups of data rather than individual rows. For example, if you want to find the average salary of employees in each department, you can group your results by department. This is particularly useful for reporting and making data-driven decisions, as it summarizes data in a more digestible format.
-JOINs
+
+# JOINs
 JOINs are a vital part of SQL that allow you to combine data from multiple tables based on related columns. By using JOINs, you can gather comprehensive insights by merging datasets. For instance, you might want to join employee data with department data to analyze performance across various departments. This ability to integrate and analyze data from different sources significantly enhances your analytical capabilities.
  
-## Conclusion
+## Wrapping Things Up
 In this tutorial, we’ve covered the key components of SQL, from fundamental queries to practical applications in reporting and data cleaning. With a solid grasp of these concepts, you can effectively analyze data, generate insightful reports, and ensure data quality.
 As you continue to develop your SQL skills, consider exploring more advanced topics such as window functions and performance optimization. These areas can enhance your data manipulation capabilities and make you more proficient in handling complex datasets.
 Now it’s your turn to apply what you've learned. Experiment with your own queries and datasets to deepen your understanding. The more you practice, the more confident you'll become in your SQL abilities.

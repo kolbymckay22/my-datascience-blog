@@ -5,14 +5,6 @@ author: Kolby Taylor
 description: Teaches the basics of SQL, a programming language used to gather and organize data.   
 image: "/assets/images/image5.jpg"
 ---
-
-## Steps for creating a new post.  
-
-* Create a new file in the `_posts` folder called `YYYY-MM-DD-post-name.md`, where YYYY is the year (2023), MM numeric month (01-12), and DD is the numeric day of the month (01-31).  The `post-name` is a short name for the new post with `-` between words.  **You must use this name convention for all new posts.**  
-
-*  Make the YML heading.  All pages in the site need to start with a YML heading.  For posts you should use the following header:
-```
----
 layout: post
 title:  "SQL for Data Science Beginners"
 author: Kolby Taylor
@@ -20,22 +12,17 @@ description: "SQL is one of the most widely used programming languages in the bu
 image: /assets/images/data_science_background.jpeg
 ---
 ```
-* For this theme, the layout should stay as `post`.   All the other fields should be updated with the information for your particular blog post.  The blog image should be a `.jpg` or `.png` file that you should add to the folder `assets/images`.  Don't make it too large or the page will take longer to load (500-800 KB is a good size).  Leave the file path as `/assets/images/` in the header area. 
 
-* Write the body of the blog using markdown.  There are a lot of references for markdown available.  I like the [Markdown Guide](https://www.markdownguide.org) because many of the examples show both the markdown and the html code.  There are separate pages for [basic syntax](https://www.markdownguide.org/basic-syntax/), [extended syntax](https://www.markdownguide.org/extended-syntax/), and a [cheatsheet](https://www.markdownguide.org/cheat-sheet/) for quick reference. 
-
-* You can also use html code snippets along with the markdown.  Often, using html will give you a little more control and flexibility as demonstrated below.
-
-Introduction
+## Introduction
 When I first started working with data, I was overwhelmed by the sheer amount of information at my fingertips, but I had no idea how to extract meaningful insights. That’s when I discovered SQL, and everything changed. Now, I can manipulate vast amounts of data with just a few lines of code.
 All data scientists aspire to build complex models and uncover powerful analytical insights. However, without clean, well-structured data, these goals are impossible to achieve. SQL is the most used tool for cleaning and organizing data.
 According to a study conducted by RTInsights, almost 70% of data scientists use SQL regularly, and it is often one of the first skills required in data science job postings. However, despite its importance, SQL remains undertaught in universities across the country. Today, I will provide a brief introduction to this powerful language and explain a few ways it can be utilized.
  
-1. Getting Started with SQL
+## Getting Started with SQL
 Before you dive in, you’ll need to set up an environment where you can practice. One of the most popular ways to do this is by installing a database management system like MySQL or PostgreSQL. MySQL is a fantastic option for beginners due to its user-friendly interface and helpful guides. If you're looking for something a bit more robust, PostgreSQL offers advanced features and excellent compliance with SQL standards, making it a great choice for tackling more complex queries.
 But what if you’re not quite ready to dive into installation? No problem! You can also explore SQL through online platforms like SQLFiddle or db-fiddle. These web-based tools let you run SQL queries in your browser without any setup hassle. They’re perfect for quickly testing out your SQL skills or experimenting with new queries. Whether you prefer to install software or use an online platform, getting started with SQL is easier than ever.
  
-2. Basic SQL Queries
+## Basic SQL Queries
 When you're getting started with SQL, understanding basic queries is crucial. The foundation of these queries lies in a few key components: the SELECT statement, the WHERE clause, and the ORDER BY clause. Let’s break each of these down with examples.
 SELECT Statement
 The SELECT statement is the backbone of any SQL query, allowing you to retrieve specific data from a database. This statement lets you specify which columns you want to view from a given table. For instance, if you want to get the names and departments of employees, you would write a query that fetches these details from the Employees table. This helps you easily identify who works in each department.
@@ -44,7 +31,7 @@ To filter your data based on certain conditions, you can use the WHERE clause. T
 ORDER BY
 Finally, the ORDER BY clause allows you to sort your query results based on one or more columns. For example, if you want to see a list of employees sorted by their salary in descending order, this clause would help you achieve that. Sorting your results can be incredibly useful for identifying trends, such as the highest-paid employees or the most senior staff members.
  
-3. Aggregating and Joining Data with SQL
+## Aggregating and Joining Data with SQL
 COUNT, SUM, AVG, MIN, MAX
 These functions are fundamental for analyzing data. COUNT is used to determine the number of rows that meet specific criteria. For example, if you want to count how many employees work in the Sales department, you would use a query to retrieve that information. Similarly, the SUM function allows you to add up values in a column, while AVG computes the average. MIN and MAX are used to find the smallest and largest values in a dataset, respectively. Using these functions can help you extract valuable metrics, such as total sales, average salaries, or the range of employee ages.
 GROUP BY
@@ -52,104 +39,7 @@ The GROUP BY clause is essential for aggregating data based on one or more colum
 JOINs
 JOINs are a vital part of SQL that allow you to combine data from multiple tables based on related columns. By using JOINs, you can gather comprehensive insights by merging datasets. For instance, you might want to join employee data with department data to analyze performance across various departments. This ability to integrate and analyze data from different sources significantly enhances your analytical capabilities.
  
-4. Conclusion
+## Conclusion
 In this tutorial, we’ve covered the key components of SQL, from fundamental queries to practical applications in reporting and data cleaning. With a solid grasp of these concepts, you can effectively analyze data, generate insightful reports, and ensure data quality.
 As you continue to develop your SQL skills, consider exploring more advanced topics such as window functions and performance optimization. These areas can enhance your data manipulation capabilities and make you more proficient in handling complex datasets.
 Now it’s your turn to apply what you've learned. Experiment with your own queries and datasets to deepen your understanding. The more you practice, the more confident you'll become in your SQL abilities.
-
----
----
-
-### Links 
-
-To create a link (internal or external), enclose the link text in brackets (e.g., [Statistics Department]) and then follow it immediately with the URL in parentheses (e.g., (https://statistics.byu.edu)).
-
-For example:
-```
-{% raw %}My favorite department at BYU is the [Statistics Department](https://statistics.byu.edu).{% endraw %}
-```
-My favorite department at BYU is the [Statistics Department](https://statistics.byu.edu)
-
-
-If you want external links to open in a separate window, you will need to use html code with `target="_blank"` inside the `a` tag. 
-
-For example:
-```
-My favorite department at BYU is the <a href="https:statistics.byu.edu" target="_blank">Statistics Department</a>
-```
-My favorite department at BYU is the <a href="https:statistics.byu.edu" target="_blank">Statistics Department</a>
-
-
-----
-----
-
-## Internal Links and Files
-
-If you want to have a link that points to another location on your site or if you want to include a file (such as an image or video) you must use the `site.url` and `site.baseurl` variables when making the link reference.  For example, this link to pointing to the [About]({{site.url}}/{{site.baseurl}}/about) page is coded as:
-```
-[About]({% raw %}{{site.url}}/{{site.baseurl}}/about){% endraw %}
-```
-Paths to files should also be referenced with the `site.url` and `site.baseurl` variables (see the section on **Adding Images**).
-
----
----
-
-## Adding Images
-*In the examples below, if your image ends with `.png` or `.JPEG`, use the appropriate extension instead of `.jpg`.*  
-
-Images for the blog will generally but put into the `assets/images` folder.  (You can also create a subfolder for images, but you will need to include the subfolder name in the reference link.) 
-
-Markdown syntax for including images is `![Fig Name](path/to/image)`.  For example:
-```
-{% raw %}![Figure]({{site.url}}/{{site.baseurl}}/assets/images/image_name.jpg){% endraw %}
-```
-![Figure]({{site.url}}/{{site.baseurl}}/assets/images/image5.jpg)
-
----
----
-
-### Resizing images
-
-The image I added in the previous section seems a bit large for this post.  Unfortunately,
-there isn't a good way to resize images with markdown, so if you need to resize an image, use html instead of markdown and specify the width in the style parameter as follows:
-
-```
-{% raw %}<img src="{{site.url}}/{{site.baseurl}}/assets/images/image_name.jpg" alt="" style="width:300px;"/>{% endraw %}
-```
-
-(Example with width set to 300 pixels)
-<img src="{{site.url}}/{{site.baseurl}}/assets/images/image5.jpg" alt="" style="width:300px;"/>
-
-
-(Example with width set to 100 pixels)
-<img src="{{site.url}}/{{site.baseurl}}/assets/images/image5.jpg" alt="" style="width:100px;"/>
-
-
-
----
----
----
-
-## Troubleshooting
-
-Here are some things to keep in mind if your blog appearance isn't going as you planned:
-
-**Problem:  The blog post that I created isn't appearing**
-
-Possible Solutions: 
-  - Check your date. GitHub pages won't display blog posts with future dates
-  - Check the yaml header.  If there are any special characters in any of the fields, you need to use quotes around the entire field entry.  The most common culprit is the description.  If you're having trouble, try putting quotes around the entire description
-
----
-
-**Problem:  I know that I made changes to a blog post but the changes aren't appearing**
-
-Possible Solution:
-  - Check the header.  If there are any special characters in any of the fields, you need to use quotes around the entire field entry.  The most common culprit is the description.  If you're having trouble, try putting quotes around the entire description.
-
----
-
-**Problem:  My entire blog has weird formatting**
-
-Possible Solution:
-  - Usually this is an address problem.  Double check your url and baseurl in the `_config` file

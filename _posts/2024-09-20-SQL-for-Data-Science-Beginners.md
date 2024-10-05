@@ -5,13 +5,6 @@ author: Kolby Taylor
 description: Teaches the basics of SQL, a programming language used to gather and organize data.   
 image: "/assets/images/image5.jpg"
 ---
-layout: post
-title:  "SQL for Data Science Beginners"
-author: Kolby Taylor
-description: "SQL is one of the most widely used programming languages in the business world. Here are the basics about this useful language that will get you building querries in not time."
-image: /assets/images/data_science_background.jpeg
----
-```
 
 ## Introduction
 When I first started working with data, I was overwhelmed by the sheer amount of information at my fingertips, but I had no idea how to extract meaningful insights. That’s when I discovered SQL, and everything changed. Now, I can manipulate vast amounts of data with just a few lines of code.

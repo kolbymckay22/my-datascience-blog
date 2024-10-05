@@ -5,8 +5,6 @@ author: Kolby Taylor
 description: Teaches the basics of SQL, a programming language used to gather and organize data.   
 image: "/assets/images/sql_background.avif"
 
-``
-
 
 ---
 

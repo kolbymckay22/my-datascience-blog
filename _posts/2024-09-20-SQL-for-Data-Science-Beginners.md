@@ -55,11 +55,14 @@ FROM client_data
 ```
 ## Step 3: Rank Your Companies
 Too rank your companies from largest to smallest, we can use the ORDER BY clause. Using this tool, you can make sure that your data is ordered any way that you would like. With the order by clause, you can specify whether you want your rows to be ordered in ascending or descending order, using ASC or DESC. Here's ORDER BY works with different types of columns:
+
 | Type   | ASC                           | DESC                           |
-|--------|-------------------------------|--------------------------------|
+|:--------|:-------------------------------|:--------------------------------|
 | Number | Smallest -> Biggest           | Biggest -> Smallest            |
 | String | Alphabetically A -> Z         | Alphabetically Z -> A          |
-| Date   | Chronologically Newest -> Oldest | Chronologically Oldest -> Newest |
+| Date   | Chronologically Oldest -> Newest | Chronologically Newest -> Oldest |
+
+
 
 
 Since we want to rank our clients from biggest to smallest, our query needs to look like this.

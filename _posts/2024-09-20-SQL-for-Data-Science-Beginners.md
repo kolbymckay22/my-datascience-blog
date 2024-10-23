@@ -15,13 +15,14 @@ According to a study conducted by RTInsights, almost 70% of data scientists use 
  
  
 ## Building A Query
-Imagine working as an intern at a small paper supply company. Your boss asks to build him a report about the company's clients. Your task is simple, give him a list of the companies ten biggest clients and he'll be happy.
+Imagine working as an intern at a small paper supply company. Your boss, Michael, asks to build him a report about the company's clients. Your task is simple, give him a list of the companies ten biggest clients and he'll be happy. Don't worry, he doesn't too expect too much.
 
-``` html
+
 <div style="text-align: center;">
   <img src="/assets/images/michael_and_ryan.png" alt="You and Your Boss">
 </div>
-```
+
+To complete the report, you decide to build a SQL query to get your data organized.
 
 ``` sql
 SELECT

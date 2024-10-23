@@ -14,13 +14,18 @@ All data scientists aspire to build complex models and uncover powerful analytic
 According to a study conducted by RTInsights, almost 70% of data scientists use SQL regularly ([RTInsights](https://www.rtinsights.com/almost-70-of-data-scientists-use-sql-regularly/)), and it is often one of the first skills required in data science job postings. However, despite its importance, SQL remains undertaught in universities across the country. Today, I will provide a brief introduction to this powerful language and explain a few ways it can be utilized.
  
  
-## Building A Query
+## Dunder Mifflin's Top Clients
 Imagine working as an intern at a small paper supply company. Your boss, Michael, asks to build him a report about the company's clients. Your task is simple, give him a list of the companies ten biggest clients and he'll be happy. Don't worry, he doesn't too expect too much.
 
 
-!["You and Your Boss"](/assets/images/michael_and_ryan.jpeg)
+<div style="text-align: center;">
+  <img src="/assets/images/michael_and_ryan.jpeg" alt="You and Your Boss" />
+</div>
 
-Don't worry, your boss loves you. It's actually a little creepy how much he does... Either way, you have big aspirations at this company, and so you want to do a good job. Lucky for you, 
+Don't worry, your boss loves you. It's actually a little creepy how much he does... Either way, you have big aspirations at this company, and so you want to do a good job. Lucky for you, I've got a step by step guide for how you can provide the perfect report!
+
+### 1. SELECT your columns:
+
 
 ``` sql
 SELECT

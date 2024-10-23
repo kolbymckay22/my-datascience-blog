@@ -1,28 +1,28 @@
 ---
 layout: post
-title:  "Learning SQL"
+title:  "Teaching Ryan Howard SQL"
 author: Kolby Taylor
 description: Teaches the basics of SQL, a programming language used to gather and organize data.   
-image: "/assets/images/sql_background.avif"
+image: "/assets/images/ryan_howard.jpeg"
 
 
 ---
 
 ## An Underrated Tool
 When I first started working with data, I was overwhelmed by the sheer amount of information at my fingertips, but I had no idea how to extract meaningful insights. That’s when I discovered SQL, and everything changed. Now, I can manipulate vast amounts of data with just a few lines of code.
-All data scientists aspire to build complex models and uncover powerful analytical insights. However, without clean, well-structured data, these goals are impossible to achieve. SQL is the most used tool out there for cleaning and organizing data, and all aspiring data scientists should learn it.
+
 According to a study conducted by RTInsights, almost 70% of data scientists use SQL regularly ([RTInsights](https://www.rtinsights.com/almost-70-of-data-scientists-use-sql-regularly/)), and it is often one of the first skills required in data science job postings. However, despite its importance, SQL remains undertaught in universities across the country. Today, I will provide a brief introduction to this powerful language and explain a few ways it can be utilized.
  
  
 ## Dunder Mifflin's Top Clients
-Imagine working as an intern at a small paper supply company. Your boss, Michael, asks to build him a report about the company's clients. Your task is simple, give him a list of the companies ten biggest clients and he'll be happy. Don't worry, he doesn't too expect too much.
+Imagine working as an intern at a small paper supply company. Your boss, Michael, asks to build him a report about the company's clients. Your task is simple, give him a list of the companies ten biggest clients and he'll be happy. Luckily, he doesn't expect too much. He's not much of an overachiever.
 
 
 <div style="text-align: center;">
   <img src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2021/05/Michael-Asks-Ryan-For-Music-Advise.jpg" alt="You and Your Boss" />
 </div>
 
-Don't worry, your boss loves you. It's actually a little creepy how much he does... 
+You might be nervous. This is your first project at the company! Plus, the only way to get the data is by writing queries. Don't worry, today I'll provide a step by step example of how you can gather the data you need using SQL. Your new-found querying skills are sure to blow your boss away... not that you need to. It's actually a little creepy how much he does... 
 
 <div style="text-align: center;">
   <img src="https://i.pinimg.com/736x/78/5d/28/785d2874b373ca70dac84968c6f83195.jpg" alt="Creep?" />

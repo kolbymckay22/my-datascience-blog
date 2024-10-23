@@ -19,13 +19,13 @@ Imagine working as an intern at a small paper supply company. Your boss, Michael
 
 
 <div style="text-align: center;">
-  <img src="/assets/images/michael_and_ryan.jpeg" alt="You and Your Boss" />
+  <img src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2021/05/Michael-Asks-Ryan-For-Music-Advise.jpg" alt="You and Your Boss" />
 </div>
 
 Don't worry, your boss loves you. It's actually a little creepy how much he does... 
 
 <div style="text-align: center;">
-  <img src="/assets/images/michael_watching_ryan.jpeg" alt="Creep?" />
+  <img src="https://i.pinimg.com/736x/78/5d/28/785d2874b373ca70dac84968c6f83195.jpg" alt="Creep?" />
 </div>
 
 Either way, you have big aspirations at this company, and so you want to do a good job. Lucky for you, I've got a step by step guide for how you can provide the perfect report!
@@ -91,7 +91,7 @@ LIMIT 10
 Great work! Michael seems to be happy with your work. He even grew some facial hair to match yours.
 
 <div style="text-align: center;">
-  <img src="/assets/images/goatees.jpeg" alt="Matching Goatees" />
+  <img src="https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2F0kgez3l0knn11.jpg" alt="Matching Goatees" />
 </div>
 
 Yikes. Maybe you should take it easy on your SQL writing skills. 

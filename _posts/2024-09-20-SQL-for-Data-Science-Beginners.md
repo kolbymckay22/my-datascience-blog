@@ -18,9 +18,9 @@ According to a study conducted by RTInsights, almost 70% of data scientists use 
 Imagine working as an intern at a small paper supply company. Your boss, Michael, asks to build him a report about the company's clients. Your task is simple, give him a list of the companies ten biggest clients and he'll be happy. Don't worry, he doesn't too expect too much.
 
 
-`!["You and Your Boss"]"/assets/images/michael_and_ryan.jpeg"`
+!["You and Your Boss"](/assets/images/michael_and_ryan.jpeg)
 
-Don't worry, your boss loves you. It's actually a little creepy, it seems like he's al
+Don't worry, your boss loves you. It's actually a little creepy how much he does... Either way, you have big aspirations at this company, and so you want to do a good job. Lucky for you, 
 
 ``` sql
 SELECT

@@ -19,7 +19,7 @@ Imagine working as an intern at a small paper supply company. Your boss, Michael
 
 
 <div style="text-align: center;">
-  <img src="/assets/images/michael_and_ryan.jpeg" alt="You and Your Boss" />
+  <img src="/assets/images/michael_watching_ryan.jpeg" alt="You and Your Boss" />
 </div>
 
 Don't worry, your boss loves you. It's actually a little creepy how much he does... Either way, you have big aspirations at this company, and so you want to do a good job. Lucky for you, I've got a step by step guide for how you can provide the perfect report!

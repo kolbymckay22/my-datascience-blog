@@ -63,13 +63,20 @@ SELECT
   annual_revenue
 FROM client_data
 ORDER BY annual_revenue DESC
+```
 
 
-WHERE
-To filter your data based on certain conditions, you can use the WHERE clause. This is especially useful when you only want to see specific entries that meet certain criteria. In our example query, we only wanted to see our bigger clients, which is why we made sure we only kept rows with at least $1 Million in revenue and 10 employees. This helps you focus on specific groups of data, making it easier to analyze information that meets your requirements. To use more than one filter, you can simply use AND or OR.
+## Step 4: Only Keeping 10 Biggest Clients
+There are lots of ways to only keep the ten biggest clients. The easiest way is to use LIMIT. LIMIT allows you to keep your rows down to a certain number. This can be very useful when you're pulling from a very large dataset and only need a few rows.
 
-ORDER BY
-Finally, the ORDER BY clause allows you to sort your query results based on one or more columns. For example, if you want to see a list of employees sorted by their salary in descending order, this clause would help you achieve that. Sorting your results can be incredibly useful for identifying trends. In our example, we sorted by annual revenue from highest to lowest. The type of sorting that will occur depends on the data type of the column. If it is categorical, it will sort it alphabetically. Numbers are sorted from lowest to highest. Dates are ordered from oldest to newest. If you want to reverse the sorting order, you can use DESC.
+``` sql
+SELECT
+  client_name,
+  annual_revenue
+FROM client_data
+ORDER BY annual_revenue DESC
+LIMIT 10
+```
 
 
 

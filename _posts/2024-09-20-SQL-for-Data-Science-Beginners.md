@@ -24,33 +24,39 @@ Imagine working as an intern at a small paper supply company. Your boss, Michael
 
 Don't worry, your boss loves you. It's actually a little creepy how much he does... Either way, you have big aspirations at this company, and so you want to do a good job. Lucky for you, I've got a step by step guide for how you can provide the perfect report!
 
-### 1. SELECT your columns:
-
+## Step 1: SELECT Your Columns
+The first thing you need to do is select the columns you want in your final dataset. If you want all of the columns in the table you're querying from, you can simply use *, like this:
 
 ``` sql
 SELECT
-  company_name,
-  annual_revenue,
-  number_of_employees
-FROM client_data.client_information
-WHERE annual_revenue >= 1000000 AND number_of_employees >= 10
-ORDER BY annual_revenue DESC
+  *
 ```
 
+For your report, we want to get a little more specific. Let's make sure that we have the company name and their annual revenue.
+``` sql
 SELECT
-The SELECT statement is the backbone of any SQL query, allowing you to retrieve specific data from a database. This statement lets you specify which columns you want to view from a given table. In our query, we selected some information about each company, including its name, annual revenue, and the number of employees.
-
-FROM
-The FROM statement allows you to specify which table you are pulling the columns from. When the table you need is located inside a folder, you have to specify that in your FROM statement. Normally, folders and files are separated by a backslash, like this:
-
-``` sql
-FROM client_data/client_information
+  client_name, annual_revenue
 ```
 
-However, in SQL, this is incorrect. Instead, they should be separated with a period, like this:
+## Step 2: Specify Your Table
+The next step is to specify which table you need to query from. You can do this using a FROM statement. Let's pull our columns from the client_data table.
+
 ``` sql
-FROM client_data.client_information
+SELECT
+  client_name,
+  annual_revenue
+FROM client_data
 ```
+## Step 3: Rank Your Companies
+Too rank your companies from largest to smallest, we can use the ORDER BY clause. Using this tool, you can make sure that your data is ordered any way that you would like. With the order by clause, you can specify whether you want your rows to be ordered in ascending or descending order, using ASC or DESC. Here's ORDER BY works with different types of columns:
+| Type   | ASC                             | DESC                           |
+|--------|-------------------------------- |--------------------------------|
+| Number | Smallest -> Biggest             | Biggest -> Smallest            |
+| String | Alphabetically A -> Z           | Alphabetically Z -> A          |
+| Date   | Chronologically Newest -> Oldest| Chronologically Oldest -> Newest|
+
+
+
 
 WHERE
 To filter your data based on certain conditions, you can use the WHERE clause. This is especially useful when you only want to see specific entries that meet certain criteria. In our example query, we only wanted to see our bigger clients, which is why we made sure we only kept rows with at least $1 Million in revenue and 10 employees. This helps you focus on specific groups of data, making it easier to analyze information that meets your requirements. To use more than one filter, you can simply use AND or OR.

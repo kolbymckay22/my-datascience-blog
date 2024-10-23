@@ -55,7 +55,14 @@ Too rank your companies from largest to smallest, we can use the ORDER BY clause
 | String | Alphabetically A -> Z           | Alphabetically Z -> A          |
 | Date   | Chronologically Newest -> Oldest| Chronologically Oldest -> Newest|
 
+Since we want to rank our clients from biggest to smallest, our query needs to look like this.
 
+``` sql
+SELECT
+  client_name,
+  annual_revenue
+FROM client_data
+ORDER BY annual_revenue DESC
 
 
 WHERE

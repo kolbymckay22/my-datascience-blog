@@ -91,7 +91,7 @@ LIMIT 10
 Great work! Michael seems to be happy with your work. He even grew some facial hair to match yours.
 
 <div style="text-align: center;">
-  <img src="https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2F0kgez3l0knn11.jpg" alt="Matching Goatees" />
+  <img src="https://pbs.twimg.com/media/DkfaIEPWwAY4F8L.jpg" alt="Matching Goatees" />
 </div>
 
 Yikes. Maybe you should take it easy on your SQL writing skills. 

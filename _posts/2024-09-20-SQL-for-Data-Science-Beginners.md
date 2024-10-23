@@ -17,7 +17,11 @@ According to a study conducted by RTInsights, almost 70% of data scientists use 
 ## Building A Query
 Imagine working as an intern at a small paper supply company. Your boss asks to build him a report about the company's clients. Your task is simple, give him a list of the companies ten biggest clients and he'll be happy.
 
-image: "/assets/images/michael_and_ryan.jpeg"
+``` html
+<div style="text-align: center;">
+  <img src="/assets/images/michael_and_ryan.png" alt="You and Your Boss">
+</div>
+```
 
 ``` sql
 SELECT

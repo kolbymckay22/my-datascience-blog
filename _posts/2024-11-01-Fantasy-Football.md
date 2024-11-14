@@ -5,6 +5,8 @@ author: Kolby Taylor
 description: Are older running backs really taboo in fantasy football? Let's try and bust this myth together. 
 image: "/assets/images/ryan_howard.jpeg"
 
+
+---
 <div style="text-align: center;">
   <!-- Main image -->
   <img src="https://media.bleacherreport.com/image/upload/w_800,h_533,c_fill/v1730990862/uoirhdibr8qhhbpyvduj.jpg" alt="Saquon Barkley Hurdle" style="max-width: 800px; width: 100%; height: auto;">
@@ -17,8 +19,6 @@ image: "/assets/images/ryan_howard.jpeg"
   </p>
 </div>
 
-
----
 ## Not Worth the Money
 When NFL running backs reach the end of their rookie contracts, most teams are too scared to pay them the big money that comes with a second. Since they're running into crowds of 300 pound linemen all the time,
 

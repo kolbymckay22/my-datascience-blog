@@ -27,12 +27,13 @@ As you can see, the data’s all here, nice and organized. However, it would be 
 
 
 <div style="text-align: center;">
-  <img src="https://media.bleacherreport.com/image/upload/w_800,h_533,c_fill/v1730990862/uoirhdibr8qhhbpyvduj.jpg"/>
-</div>
+  <!-- Main image -->
+  <img src="https://media.bleacherreport.com/image/upload/w_800,h_533,c_fill/v1730990862/uoirhdibr8qhhbpyvduj.jpg" alt="Saquon Barkley Hurdle" style="max-width: 800px; width: 100%; height: auto;">
 
-<div style="text-align: center;">
-  <a href="https://www.youtube.com/watch?v=qha5Sjamgr0" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.youtube.com/vi/qha5Sjamgr0/0.jpg" alt="Watch on YouTube" style="max-width: 560px; width: 100%; height: auto;">
-  </a>
-  <p>Click the image to watch Saquon Barkley's incredible hurdle.</p>
+  <!-- Link to YouTube video -->
+  <p style="margin-top: 20px;">
+    <a href="https://www.youtube.com/watch?v=qha5Sjamgr0" target="_blank" rel="noopener noreferrer">
+      Watch Saquon Barkley's incredible hurdle on YouTube
+    </a>
+  </p>
 </div>

@@ -27,15 +27,12 @@ As you can see, the data’s all here, nice and organized. However, it would be 
 
 
 <div style="text-align: center;">
-  <img src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2021/05/Michael-Asks-Ryan-For-Music-Advise.jpg" alt="You and Your Boss" />
+  <img src="https://media.bleacherreport.com/image/upload/w_800,h_533,c_fill/v1730990862/uoirhdibr8qhhbpyvduj.jpg"/>
 </div>
 
 <div style="text-align: center;">
-  <iframe width="560" height="315" 
-          src="https://www.youtube.com/embed/qha5Sjamgr0" 
-          title="YouTube video player" 
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-          allowfullscreen>
-  </iframe>
+  <a href="https://www.youtube.com/watch?v=qha5Sjamgr0" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.youtube.com/vi/qha5Sjamgr0/0.jpg" alt="Watch on YouTube" style="max-width: 560px; width: 100%; height: auto;">
+  </a>
+  <p>Click the image to watch Saquon Barkley's incredible hurdle.</p>
 </div>

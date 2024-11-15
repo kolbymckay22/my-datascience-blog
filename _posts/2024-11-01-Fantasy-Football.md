@@ -3,7 +3,7 @@ layout: post
 title:  "A Fantasy Football Fantasy?"
 author: Kolby Taylor
 description: Are older running backs really taboo in fantasy football? Let's try and bust this myth together. 
-image: "/assets/images/ryan_howard.jpeg"
+image: "/assets/images/derrickhenry.webp"
 
 
 ---

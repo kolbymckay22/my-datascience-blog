@@ -47,7 +47,9 @@ fantasy_df = pd.read_csv('fantasy.csv')
 fantasy_df.head(5)
 ```
 
-(Insert table that has top 10 running backs in each year with drop downs)
+<iframe src="https://yourwebsite.com/top_10_age_distribution.html" width="900" height="600" frameborder="0"></iframe>
+
+
 (Average age of top 10 running backs over the past 25 years)
 (Injuries)
 (Recommendations for next year)

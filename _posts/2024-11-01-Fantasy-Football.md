@@ -36,20 +36,12 @@ If so many older running backs are having success this year, then why aren't tea
 ## Diving into the Data
 To do this analysis, I'm going to web scrape data from a website called [Fantasy Football Guys](https://www.footballguys.com/playerhistoricalstats?pos=rb&yr=2023&startwk=1&stopwk=17&profile=p). You should check it out! They have awesome data on fantasy football going all the way back to the 90's. Remember, if you want to web scrape this website or any other, make sure to look for possible policies about what you're allowed to do with the data. Many websites ban web scraping. I looked for a robots.txt file and read their privacy policy, but couldn't find anything prohibiting web scraping, so we're good to go! I scraped and tidied my data in another file, so it's good to go for us to use.
 
-```python
-# Import pandas
-import pandas as pd
-
-# Read the fantasy.csv data into a DataFrame
-fantasy_df = pd.read_csv('fantasy.csv')
-
-# Display the first few rows of the data
-fantasy_df.head(5)
-```
-
 ![Age Distribution of Top 10 Running Backs](https://raw.githubusercontent.com/kolbymckay22/my-datascience-blog/refs/heads/main/assets/images/age_distribution_of_top_10_rbs_plot.png)
 
+First, let's see if the age of the top players at the position has changed over the years. The graph above shows how the distribution of ages in the top 10 running backs has changed over the years. The general belief is that running backs typically decline when they're around 27 years old. In the graph, we can see that in the past, there were more older running backs over the age of 25. In general, it seems like they are disappearing more and more. So, is it true that older running backs aren't as good? And why are they worse now than they were twenty years ago?
 
-(Average age of top 10 running backs over the past 25 years)
-(Injuries)
+
+![Age Distribution of Top 10 Running Backs](https://raw.githubusercontent.com/kolbymckay22/my-datascience-blog/refs/heads/main/assets/images/average_points_and_games_played.png)
+
+
 (Recommendations for next year)

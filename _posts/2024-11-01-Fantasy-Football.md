@@ -47,7 +47,7 @@ fantasy_df = pd.read_csv('fantasy.csv')
 fantasy_df.head(5)
 ```
 
-![Age Distribution of Top 10 Running Backs](assets/images/age_distribution_of_top_10_rbs_plot.png)
+![Age Distribution of Top 10 Running Backs](https://github.com/kolbymckay22/my-datascience-blog/blob/main/assets/images/age_distribution_of_top_10_rbs_plot.png)
 
 
 (Average age of top 10 running backs over the past 25 years)

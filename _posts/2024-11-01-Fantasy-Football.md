@@ -40,8 +40,8 @@ To do this analysis, I'm going to web scrape data from a website called [Fantasy
 
 First, let's see if the age of the top players at the position has changed over the years. The graph above shows how the distribution of ages in the top 10 running backs has changed over the years. The general belief is that running backs typically decline when they're around 27 years old. In the graph, we can see that in the past, there were more older running backs over the age of 25. In general, it seems like they are disappearing more and more. So, is it true that older running backs aren't as good? And why are they worse now than they were twenty years ago?
 
+Could it be injuries? It would make sense that with as running backs get older, they would start getting hurt more often and playing less games every season. Is it possible that they're good when they play, but because they don't play very often, they aren't as valuable? Let's look into it to find out. 
 
 ![Age Distribution of Top 10 Running Backs](https://raw.githubusercontent.com/kolbymckay22/my-datascience-blog/refs/heads/main/assets/images/average_points_and_games_played.png)
 
-
-(Recommendations for next year)
+To look into this, we'll calculate the average games played and average fantasy points per game for each age of running backs. Looking at the graph, we can notice some interesting trends. It doesn't seem like injuries increase too much as the player gets older, at least not until they get into their mid thirties. However, the average points per game does seem to fall of pretty sharply once a running back hits 28 years olds.

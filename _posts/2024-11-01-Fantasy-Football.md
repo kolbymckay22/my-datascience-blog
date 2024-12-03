@@ -36,7 +36,7 @@ If so many older running backs are having success this year, then why aren't tea
 ## An Introduction to Web Scraping
 To do this analysis, I'm going to web scrape data from a website called [Fantasy Football Guys](https://www.footballguys.com/playerhistoricalstats?pos=rb&yr=2023&startwk=1&stopwk=17&profile=p). You should check it out! They have awesome data on fantasy football going all the way back to the 90's. Remember, if you want to web scrape this website or any other, make sure to look for possible policies about what you're allowed to do with the data. Many websites ban web scraping. I looked for a robots.txt file and read their privacy policy, but couldn't find anything prohibiting web scraping, so we're good to go! I scraped and tidied my data in another file, so it's good to go for us to use.
 
-The simplest way to scrape is to use a python package called Beautiful Soup. Essentially, Beautiful Soup turns the underlying code of the website into text, allowing us to use simple code to find tags in the html and extract the elements. I won't go into much detail here, but if you'd like to learn more, ![here is a great repository with documenation on Beautiful Soup](https://tedboy.github.io/bs4_doc/) 
+The simplest way to scrape is to use a python package called Beautiful Soup. Essentially, Beautiful Soup turns the underlying code of the website into text, allowing us to use simple code to find tags in the html and extract the elements. I won't go into much detail here, but if you'd like to learn more, [here is a great repository with documenation on Beautiful Soup](https://tedboy.github.io/bs4_doc/) 
 
 Here is the code I used to scrape my fantasy football data from Fantasy Football Guys:
 
@@ -74,7 +74,18 @@ for year in years:
 ```
 
 ## Diving into the Data
-Now that we have the data, we can dive into the question: Does age affect production? I'll only dive into a couple of points here, but if you're curious to know more, you can find my data and analysis in this ![Github repository](https://github.com/kolbymckay22/Fantasy-Football-Analysis).
+The dataset shows every player and their stats going back to the year 2000. I didn't care too much about the specific stats, like touchdowns and yards. I particularly wanted to look at the age of the running back, how many years they had been in the league, how many games they played that season, their total points, and their average points per game. I also only wanted to look at relevant running backs. In other words, if a player was on the bench for his whole career, I didn't want his poor statistics throwing off the analysis. So, I kept only running backs who at some point in their career placed in the top 30.
+
+``` python
+# Identify running backs who have ever ranked 30 or less
+rbs_with_top_rank = fantasy_df.groupby('Name')['Rank'].min()
+top_rbs = rbs_with_top_rank[rbs_with_top_rank <= 30].index
+
+# Filter the original DataFrame to keep only rows for these top running backs
+fantasy_df_filtered = fantasy_df[fantasy_df['Name'].isin(top_rbs)]
+```
+
+Now that we have the data, we can dive into the question: Does age affect production? I'll only dive into a couple of points here, but if you're curious to know more, you can find my data and analysis in this [Github repository](https://github.com/kolbymckay22/Fantasy-Football-Analysis).
 
 ![Age Distribution of Top 10 Running Backs](https://raw.githubusercontent.com/kolbymckay22/my-datascience-blog/refs/heads/main/assets/images/age_distribution_of_top_10_rbs_plot.png)
 

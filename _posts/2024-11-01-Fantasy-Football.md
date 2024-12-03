@@ -36,7 +36,7 @@ If so many older running backs are having success this year, then why aren't tea
 ## An Introduction to Web Scraping
 To do this analysis, I'm going to web scrape data from a website called [Fantasy Football Guys](https://www.footballguys.com/playerhistoricalstats?pos=rb&yr=2023&startwk=1&stopwk=17&profile=p). You should check it out! They have awesome data on fantasy football going all the way back to the 90's. Remember, if you want to web scrape this website or any other, make sure to look for possible policies about what you're allowed to do with the data. Many websites ban web scraping. I looked for a robots.txt file and read their privacy policy, but couldn't find anything prohibiting web scraping, so we're good to go! I scraped and tidied my data in another file, so it's good to go for us to use.
 
-The simplest way to scrape is to use a python package called Beautiful Soup. Essentially, Beautiful Soup turns the underlying code of the website into text, allowing us to use simple code to find tags in the html and extract the elements. I won't go into much detail here, but if you'd like to learn more, [here is a great repository with documenation on Beautiful Soup](https://tedboy.github.io/bs4_doc/) 
+The simplest way to scrape is to use a python package called Beautiful Soup. Essentially, Beautiful Soup turns the underlying code of the website into text, allowing us to use simple code to find tags in the html and extract the elements. I won't go into much detail here, but if you'd like to learn more, [here is a great repository with documenation on Beautiful Soup](https://tedboy.github.io/bs4_doc/).
 
 Here is the code I used to scrape my fantasy football data from Fantasy Football Guys:
 

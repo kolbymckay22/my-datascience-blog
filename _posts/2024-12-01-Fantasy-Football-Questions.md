@@ -94,5 +94,7 @@ Verdict: I would be very reluctant to draft Tyreek Hill next year. It seems like
 There is so much to explore in Fantasy Football. I really hope that you can do well next year, and that I answered some of your biggest questions! Feel free to use my app to do any more analysis you want. Good luck drafting!
 
 Here are the links to my Github Repot and Streamlit App:
+
 [Fantasy Football Dashboard](https://fantasyfootballdashboard.streamlit.app/)
+
 [Github Repository](https://github.com/kolbymckay22/Fantasy-Football-Analysis)

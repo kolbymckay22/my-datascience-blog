@@ -42,13 +42,13 @@ However, just before the season, rumors started to surface about a possible inju
 So, what do we do with him next year?
 
 <div style="text-align: center;">
-  <img src="https://raw.githubusercontent.com/kolbymckay22/my-datascience-blog/refs/heads/main/assets/images/McCaffrey_points_per_game.png"style="max-width: 800px; width: 100%; height: auto;">
+  <img src="https://raw.githubusercontent.com/kolbymckay22/my-datascience-blog/refs/heads/main/assets/images/McCaffrey_points_per_game.png" style="max-width: 800px; width: 100%; height: auto;">
 </div>
 
 It is undeniable that when McCaffrey is healthy and on the field, he’s one of the best players in the NFL. The graph above shows his average fantasy points per game over his career. His peak of 30 points per game is unmatched by even Derrick Henry and Saqoun Barkley, widely regarded as the two best players in fantasy this year.
 
 <div style="text-align: center;">
-  <img src="https://raw.githubusercontent.com/kolbymckay22/my-datascience-blog/refs/heads/main/assets/images/McCaffrey_games_played.png"style="max-width: 800px; width: 100%; height: auto;">
+  <img src="https://raw.githubusercontent.com/kolbymckay22/my-datascience-blog/refs/heads/main/assets/images/McCaffrey_games_played.png" style="max-width: 800px; width: 100%; height: auto;">
 </div>
 
 Sometimes, though, availability is the best ability, and availability is McCaffrey’s biggest problem. Out of the 8 seasons in McCaffrey’s career, three have been wrecked by injury. The bright side? We’ve seen him come back from injury before. After playing in only 10 total games through 2020 and 2021, McCaffrey came back strong, playing in 32 games over the next two seasons. Need further proof? Just watch the highlight video I linked above.
@@ -67,7 +67,7 @@ The verdict: How risk averse are you? McCaffrey is high risk, high reward. While
 ## Tyreek Hill
 
 <div style="text-align: center;">
-  <img src="https://raw.githubusercontent.com/kolbymckay22/my-datascience-blog/refs/heads/main/assets/images/Hill_points_per_game.png"style="max-width: 800px; width: 100%; height: auto;">
+  <img src="https://raw.githubusercontent.com/kolbymckay22/my-datascience-blog/refs/heads/main/assets/images/Hill_points_per_game.png" style="max-width: 800px; width: 100%; height: auto;">
 </div>
 
 In 2023, Tyreek Hill had an outstanding season, breaking defenses with his incredible speed. This year, we’ve seen a meteoric fall. Tyreek has gone from 24 points per game all the way down to under 12, the lowest of his career. Part of the reason is that his quarterback was hurt for much of the season. Another is a nagging wrist injury he’s dealing with. However, I think the most interesting and impactful reason for next season is how teams have chosen to defend him.
@@ -83,7 +83,7 @@ In 2023, Tyreek Hill had an outstanding season, breaking defenses with his incre
 To stop the big play threats of today’s NFL, teams are starting to employ a defense with two safeties, which limits deep throws and forces teams to make smaller chunk plays. Credit to [NFL Operations](https://operations.nfl.com/gameday/analytics/stats-articles/how-defensive-schemes-are-shaping-the-nfls-passing-game-in-2024/#:~:text=According%20to%20Next%20Gen%20Stats,2019%20to%2063%25%20in%202024.), who wrote an article about the increasing frequency of this new look. The goal of the formation is to limit big plays down the side line, forcing the opponent to take more conservative plays. According to the NFL, the percentage of two safety looks has jumped from 44% in 2019 to 63% in 2024. Unfortunately, deep plays down the sideline are where Tyreek Hill kills with his cheetah-like speed. Because of this, no team faces this new defense more than Hill’s Miami Dolphins.
 
 <div style="text-align: center;">
-  <img src="https://raw.githubusercontent.com/kolbymckay22/my-datascience-blog/refs/heads/main/assets/images/Hill_yards_per_reception.png"style="max-width: 800px; width: 100%; height: auto;">
+  <img src="https://raw.githubusercontent.com/kolbymckay22/my-datascience-blog/refs/heads/main/assets/images/Hill_yards_per_reception.png" style="max-width: 800px; width: 100%; height: auto;">
 </div>
 
 To illustrate this difference, we can look at Tyreek Hill’s average yards per reception. As you can see, Tyreek historically averages close to 15 yards per catch. This year, he’s down below 12. The last time he was this low was his last year with the Kansas City Chiefs, when teams famously tried more two safety looks to slow down the big throws from Patrick Mahomes to Tyreek Hill and Travis Kelce.
